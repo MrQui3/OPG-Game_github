@@ -1,0 +1,366 @@
+{
+	"Story_Parts": [
+		{
+			"Questions": "Gehe zum Lehrer vor der Schule, um die Story Line zu starten",
+			"Id": 1,
+			"Trigger": [ 1, 6 ],
+			"nextNodes": [ 2 ]
+
+		},
+		{
+			"Questions": "Hi. Du bist ein 10. klässler, der neu an der Schule ist",
+			"Id": 2,
+			"Trigger": [ 2 ],
+			"nextNodes": [ 3 ]
+		},
+		{
+			"Questions": "Im folgenden spielst du ein ganzen Schultag diese Figur. Dabei musst du die angesagten Quests möglichst gut lösen, welche mit Noten bewertet werden. Als erstes muss du ins Sekretariat gehen, um dir den Stundenplan abzuholen!\n\nTask: Gehe ins Sekteriat\n\nZeit: 15min",
+			"Id": 3,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 4, 7 ]
+		},
+		{
+			"Questions": "Gehe zu dem Lehrer im Sekteriat!",
+			"Id": 4,
+			"Trigger": [ 3, 4, 5, 6 ],
+			"nextNodes": [ 5, 7, 4 ]
+		},
+		{
+			"Questions": "Gut, gemacht du bist im Sekteriat angekommen",
+			"Id": 5,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 6, 7 ]
+		},
+		{
+			"Questions": "Hier ist dein Stunden Plan, wo du jetzt unterricht hast!",
+			"Id": 6,
+			"Trigger": [ 2, 4, 7 ],
+			"nextNodes": [ 10, 7 ]
+		},
+		{
+			"Questions": "Gehe zum Lehrer im Sekteriat, du bist schlechter als 5.0",
+			"Id": 7,
+			"Trigger": [ 3, 6 ],
+			"nextNodes": [ 8 ]
+		},
+		{
+			"Questions": "Du musst leider die Schule verlassen!",
+			"Id": 8,
+			"Trigger": [ 2 ],
+			"nextNodes": [ 9 ]
+		},
+		{
+			"Questions": "Du kannst dich jetzt in der Schule umschauen!",
+			"Id": 9,
+			"Trigger": [ 6 ],
+			"nextNodes": []
+		},
+		{
+			"Questions": "Eine kurze Frage über die Schule zu beginn.\n\nIst die Schule 30 Jahre alt?",
+			"Id": 10,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 11, 12, 7 ]
+		},
+		{
+			"Questions": "Falsch, die Schule ist älter",
+			"Id": 11,
+			"Trigger": [ 2, 4, 10 ],
+			"nextNodes": [ 13, 7 ]
+		},
+		{
+			"Questions": "Richtig, die Schule ist älter",
+			"Id": 12,
+			"Trigger": [ 2, 4, 11 ],
+			"nextNodes": [ 13, 7 ]
+		},
+		{
+			"Questions": "Gehe zu deiner ersten Unterrichtsstunde Deutsch!",
+			"Id": 13,
+			"Trigger": [ 20, 4, 5, 6 ],
+			"nextNodes": [ 14, 7, 13 ]
+		},
+		{
+			"Questions": "Hallo, du bist jetzt im Deutschunterricht und bekommt allgemeine Fragen zu Deutsch gestellt.",
+			"Id": 14,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 15, 7 ]
+		},
+		{
+			"Questions": "Enthält eine Kurzgeschichte immer eine Moral?",
+			"Id": 15,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 16, 17, 7 ]
+		},
+		{
+			"Questions": "Falsch, diese kann eine Moral enthalten, muss es aber nicht!",
+			"Id": 16,
+			"Trigger": [ 2, 4, 13, 10 ],
+			"nextNodes": [ 18, 7, 55 ]
+		},
+		{
+			"Questions": "Richtig, diese kann eben nur verwendet werden!",
+			"Id": 17,
+			"Trigger": [ 2, 4, 13, 11 ],
+			"nextNodes": [ 18, 7, 55 ]
+		},
+		{
+			"Questions": "Muss eine Erörterung immer eine eindeutige Schlussfolgerung haben?",
+			"Id": 18,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 19, 20, 7 ]
+		},
+		{
+			"Questions": "Richtig, ansonsten macht eine solche Erörterung keinen Sinn!",
+			"Id": 19,
+			"Trigger": [ 2, 4, 13, 11 ],
+			"nextNodes": [ 21, 7, 55 ]
+		},
+		{
+			"Questions": "Falsch,  ansonsten macht eine solche Erörterung keinen Sinn!",
+			"Id": 20,
+			"Trigger": [ 2, 4, 13, 10 ],
+			"nextNodes": [ 21, 7, 55 ]
+		},
+		{
+			"Questions": "Kann ein Nebensatz alleine für sich stehen?",
+			"Id": 21,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 22, 23, 7 ]
+		},
+		{
+			"Questions": "Falsch, ein Nebensatz bezieht sich immer auf einen Hauptsatz oder einen anderen Nebensatz!",
+			"Id": 22,
+			"Trigger": [ 2, 4, 13, 10 ],
+			"nextNodes": [ 24, 7, 55 ]
+		},
+		{
+			"Questions": "Richtig,  ein Nebensatz bezieht sich immer auf einen Hauptsatz oder einen anderen Nebensatz!",
+			"Id": 23,
+			"Trigger": [ 2, 4, 13, 11 ],
+			"nextNodes": [ 24, 7, 55 ]
+		},
+		{
+			"Questions": "Beeil dich zum nächsten Unterricht. Du hast bisschen länger gebracht. Die Pause hat schon begonnen",
+			"Id": 55,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 25, 7 ]
+		},
+		{
+			"Questions": "Du kannst jetzt die Schule erkunden bis die Pause anfängt, dann musst du in den Mathe Unterricht!",
+			"Id": 24,
+			"Trigger": [ 13, 4, 6 ],
+			"nextNodes": [ 25, 7 ]
+		},
+		{
+			"Questions": "Gehe jetzt in den Mathe-Unterricht, so schnell wie du kannst!",
+			"Id": 25,
+			"Trigger": [ 21, 4, 5, 6 ],
+			"nextNodes": [ 26, 7, 25 ]
+		},
+		{
+			"Questions": "Hi, du bist jetzt im Mathe Unterricht angekommen. Hier gibt es natürlich auch Aufgaben, um deine Note zu verbessern.",
+			"Id": 26,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 27, 7 ]
+		},
+		{
+			"Questions": "Kann man eine Gleichung mit zwei Unbekannten lösen?",
+			"Id": 27,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 28, 29, 7 ]
+		},
+		{
+			"Questions": "Falsch, nur ein Gleichungssystem mit zwei Gleichungen kann zwei Unbekannte genau bestimmen!",
+			"Id": 28,
+			"Trigger": [ 2, 4, 15, 10 ],
+			"nextNodes": [ 30, 7, 56 ]
+		},
+		{
+			"Questions": "Richtig,  nur ein Gleichungssystem mit zwei Gleichungen kann zwei Unbekannte genau bestimmen!",
+			"Id": 29,
+			"Trigger": [ 2, 4, 15, 11 ],
+			"nextNodes": [ 30, 7, 56 ]
+		},
+		{
+			"Questions": "Nächste Frage zum Thema Mathematik: \n\nKann man den Flächeninhalt eines Kreises berechnen, wenn man nur den Durchmesser kennt?",
+			"Id": 30,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 31, 32, 7 ]
+		},
+		{
+			"Questions": "Richtig, denn mit dem Durchmesser lässt sich der Radius berechnen, mit dem der Flächeninhalt berechnet wird!",
+			"Id": 31,
+			"Trigger": [ 2, 4, 15, 11 ],
+			"nextNodes": [ 33, 7, 56 ]
+		},
+		{
+			"Questions": "Falsch,  denn mit dem Durchmesser lässt sich der Radius berechnen, mit dem der Flächeninhalt berechnet wird!",
+			"Id": 32,
+			"Trigger": [ 2, 4, 15, 10 ],
+			"nextNodes": [ 33, 7, 56 ]
+		},
+		{
+			"Questions": "Letzte Frage zum Thema Mathematik: \n\nKönnen verschiedene geometrische Figuren die gleiche Fläche haben?",
+			"Id": 33,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 34, 35, 7 ]
+		},
+		{
+			"Questions": "Richtig, denn nach dem Satz von Cavalleri können Volumina und Flächen gleich groß sein, aber verschieden aussehen!",
+			"Id": 34,
+			"Trigger": [ 2, 4, 15, 11 ],
+			"nextNodes": [ 36, 7, 56 ]
+		},
+		{
+			"Questions": "Falsch,  denn nach dem Satz von Cavalleri können Volumina und Flächen gleich groß sein, aber verschieden aussehen!",
+			"Id": 35,
+			"Trigger": [ 2, 4, 15, 10 ],
+			"nextNodes": [ 36, 7, 56 ]
+		},
+		{
+			"Questions": "Beeil dich zum nächsten Unterricht. Du hast bisschen länger gebracht. Die Pause hat schon begonnen",
+			"Id": 56,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 37, 7 ]
+		},
+		{
+			"Questions": "Du kannst jetzt die Schule erkunden bis die Pause anfängt, dann musst du in den Sport Unterricht!",
+			"Id": 36,
+			"Trigger": [ 15, 4, 6 ],
+			"nextNodes": [ 37, 7 ]
+		},
+		{
+			"Questions": "Gehe jetzt schnell in den Sport Unterricht zu deinem Lehrer!",
+			"Id": 37,
+			"Trigger": [ 22, 4, 5, 6 ],
+			"nextNodes": [ 38, 7, 37 ]
+		},
+		{
+			"Questions": "Schaffe den folgenden Jamp and Run in dieser Sport Stunde!",
+			"Id": 38,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 39, 7 ]
+		},
+		{
+			"Questions": "Schaffe den Jump and Run in dieser Doppelstunde!",
+			"Id": 39,
+			"Trigger": [ 25, 17, 4, 6 ],
+			"nextNodes": [ 40, 41, 7 ]
+		},
+		{
+			"Questions": "Sehr gut, du bist sehr sportlich!",
+			"Id": 40,
+			"Trigger": [ 2, 4, 11 ],
+			"nextNodes": [ 42, 7 ]
+		},
+		{
+			"Questions": "Gehe wieder zu deinem Sport Lehrer zurück leider bist du nicht so sportlich!",
+			"Id": 41,
+			"Trigger": [ 22, 4, 10, 6 ],
+			"nextNodes": [ 59, 7 ]
+		},
+		{
+			"Questions": "Schade, dass du den Parkour nicht in dieser Stunde geschafft hast, beim nächstenmal wird es sicher was!",
+			"Id": 59,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 42, 7 ]
+		},
+		{
+			"Questions": "Du kannst jetzt die Schule erkunden, aber achte darauf, dass du in der 7.Stunde Latein hast!",
+			"Id": 42,
+			"Trigger": [ 4, 18, 6 ],
+			"nextNodes": [ 7, 60 ]
+		},
+		{
+			"Questions": "Du musst jetzt zu Latein gehen! Du hast jetzt Unterricht!",
+			"Id": 60,
+			"Trigger": [ 23, 4 ,5, 6],
+			"nextNodes": [ 54, 7, 60 ]
+		},
+		{
+			"Questions": "Sehr gut, willkommen zu deiner ersten Latein Stunde!",
+			"Id": 54,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 43, 7 ]
+		},
+		{
+			"Questions": "Die erste Frage ist: \n\nHat Latein Einfluss auf moderne europäische Sprachen?",
+			"Id": 43,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 45, 46, 7 ]
+		},
+		{
+			"Questions": "Gehe jetzt sofort zu Latein, sonst bekommst du Notenabzug!",
+			"Id": 44,
+			"Trigger": [ 23, 4, 5, 6 ],
+			"nextNodes": [ 43, 7, 44 ]
+		},
+		{
+			"Questions": "Richtig, viele Wörte aus dem Englischen, Französischen und Spannischen kommen aus der lateinischen Sprache!",
+			"Id": 45,
+			"Trigger": [ 2, 4, 19, 11 ],
+			"nextNodes": [ 47, 7, 57 ]
+		},
+		{
+			"Questions": "Falsch,  viele Wörte aus dem Englischen, Französischen und Spannischen kommen aus der lateinischen Sprache!",
+			"Id": 46,
+			"Trigger": [ 2, 4, 19, 10 ],
+			"nextNodes": [ 47, 7, 57 ]
+		},
+		{
+			"Questions": "Die nächste Frage ist: \n\n Wurden in der Antike auch Texte in lateinischer Sprache verfasst?",
+			"Id": 47,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 48, 49, 7 ]
+		},
+		{
+			"Questions": "Richtig, einige der bedeutensten Autoren waren Cicero und Vergil, die bis heute gelesen und bekannt sind!",
+			"Id": 48,
+			"Trigger": [ 2, 4, 19, 11 ],
+			"nextNodes": [ 50, 7, 57 ]
+		},
+		{
+			"Questions": "Falsch,  einige der bedeutensten Autoren waren Cicero und Vergil, die bis heute gelesen und bekannt sind!",
+			"Id": 49,
+			"Trigger": [ 2, 4, 19, 10 ],
+			"nextNodes": [ 50, 7, 57 ]
+		},
+		{
+			"Questions": "Die nächste Frage ist: \n\n Wurde Latein in der römischen Antike auch von allen sozialen Schichten gesprochen?",
+			"Id": 50,
+			"Trigger": [ 8, 9, 4 ],
+			"nextNodes": [ 51, 52, 7 ]
+		},
+		{
+			"Questions": "Richtig, aus diesem Grund gibt es auch verschiedene Arten von Latein, wie Vulgär Latein!",
+			"Id": 51,
+			"Trigger": [ 2, 4, 19, 10 ],
+			"nextNodes": [ 53, 7, 57 ]
+		},
+		{
+			"Questions": "Falsch,  es gab verschiedene Arten von Latein abhänig von der Gesellschaftsschicht, wie Vulgär Latein!",
+			"Id": 52,
+			"Trigger": [ 2, 4, 19, 11 ],
+			"nextNodes": [ 53, 7, 57 ]
+		},
+		{
+			"Questions": "Beeil dich, die Schule ist schon vorbei. Du hast bisschen länger gebracht",
+			"Id": 57,
+			"Trigger": [ 2, 4 ],
+			"nextNodes": [ 58, 7 ]
+		},
+		{
+			"Questions": "Du kannst jetzt die Schule erkunden bis der Unterricht vorbei ist und somit der erste Schultag abgeschlossen ist!",
+			"Id": 53,
+			"Trigger": [ 19, 4, 6 ],
+			"nextNodes": [ 58, 7 ]
+		},
+		{
+			"Questions": "Ende!",
+			"Id": 58,
+			"Trigger": [ 24 ],
+			"nextNodes": []
+		}
+
+	]
+}

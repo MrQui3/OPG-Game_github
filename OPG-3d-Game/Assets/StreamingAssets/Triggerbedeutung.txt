@@ -1,0 +1,70 @@
+Trigger:
+
+Trigger: 1 -> Lehrer1 vor der Schule zur einführung
+Trigger: 2 -> Ok-Button in dem Dailogfenster
+Trigger: 3 -> Lehrer2 im Sekteriat, um die neuen Stundenpläne zugeben
+Trigger: 4 -> Notenanzeige, als Trigger nur einmal wichtig, wenn es angezeigt werden soll und damit man mit einer 5 von der Schule fliegt
+Trigger: 5 -> Ablaufende Zeit: 15min
+Trigger: 6 -> Informationen Anzeige oben
+Trigger: 7 -> Abjetzt ist der Stundeplan angezeigt, muss nur einmal aktiviert werden !!!
+Trigger: 8 -> Yes-Button im Entscheidungsscreen
+Trigger: 9 -> No-Button im Entscheidungsscreen
+Trigger: 10 -> Erhöht die Durchschnittsnote um 0.2
+Trigger: 11 -> Senkt die Durchschnittsnote um 0.2
+Trigger: 12 -> 1-2 Stunde Trigger
+Trigger: 13 -> 1. Pause Trigger
+Trigger: 14 -> 3-4 Stunde Trigger
+Trigger: 15 -> 2. Pause Trigger
+Trigger: 16 -> 5-6 Stunde
+Trigger: 17 -> Mittagspause
+Trigger: 18 -> 7-8 Stunde
+Trigger: 19 -> Schule Ende
+Trigger: 20 -> Lehrer3 Deutsch
+Trigger: 21 -> Lehrer4 Mathematik
+Trigger: 22 -> Sport5 Lehrer
+Trigger: 23 -> Lehrer6 Latein
+Trigger: 24 -> Endscreen anschalten
+Trigger: 25 -> Entgegennahme Sport Lehrer
+
+Stundenplan Zeiten:
+
+0 --> Zeit vor der Schule (vor 8 Uhr)
+1 --> erste Doppelstunde
+2 --> erste Pause
+3 --> zweite Doppelstunde
+4 --> zweite Pause
+5 --> dritte Doppelstunde
+6 --> Mittagspause
+7 --> vierte Doppelstunde
+8 --> Schulzeitende
+public Trigger_m triggerende;
+    public int trigger_id = 24;
+    public Grades_Label_Script gs;
+    public TextMeshProUGUI gradeLabel;
+    public GameObject endscreen1;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        if (TreeManager.GetTreeManager() == null)
+        {
+            TreeManager.TreeManagerStarten();
+        }
+        Debug.Log("Hi, now i'm on, too");
+        triggerende = new Trigger_m(trigger_id);
+        TreeManager.GetTreeManager().addTrigger(triggerende);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (triggerende.aktiv)
+        {
+            gradeLabel.text = gs.grade+"";
+        }
+        else
+        {
+            endscreen1.SetActive(false);
+        }
+    }

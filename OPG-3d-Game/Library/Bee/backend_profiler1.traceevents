@@ -1,0 +1,485 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677667630935824, "dur":1627, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667630937463, "dur":87, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677667630937567, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677667630937594, "dur":276, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677667630937916, "dur":1083, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667630938999, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916564, "dur":137, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916701, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916723, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916726, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916741, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916745, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916754, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916758, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916767, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916792, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633916810, "dur":3703, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677667630938399, "dur":616, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630939018, "dur":5921, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630944955, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677667630944958, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630945034, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677667630945040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630946566, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677667630950512, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677667630950597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630950727, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677667630952797, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677667630952875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630952951, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677667630955276, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1677667630955349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630956168, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1677667630957554, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1677667630957630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630957645, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1677667630960647, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667630960710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667630961138, "dur":160965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631122160, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631122227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631122237, "dur":58119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631180425, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631180488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631180499, "dur":78298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631258854, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631258924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631258935, "dur":42310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631301309, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631301368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631301379, "dur":42262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631343697, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631343760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631343772, "dur":37154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631380979, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631381035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631381045, "dur":98991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631480101, "dur":189700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631669807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631669820, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631671689, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631671760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631671771, "dur":52641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631724470, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631724529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631724540, "dur":36878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631761476, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631761537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631761548, "dur":36960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631798653, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631798761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631798772, "dur":54909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631853739, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631853804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631853814, "dur":40352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631894223, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667631894283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667631894295, "dur":139516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632033867, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632033959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632033970, "dur":47279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632081309, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632081376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632081387, "dur":37179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632118622, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632118683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632118694, "dur":43335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632162083, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632162156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632162167, "dur":61503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632223729, "dur":67867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632291602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632291615, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632293074, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632293134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632293145, "dur":100129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632393335, "dur":1076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632394417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632394429, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632395768, "dur":76767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632472542, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632472591, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632473947, "dur":1024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632474977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632474989, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632476415, "dur":1096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632477519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632477531, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632478795, "dur":42740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632521541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632521553, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632523062, "dur":1178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632524246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632524259, "dur":3149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632527467, "dur":11347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632538849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632538861, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632540143, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632540209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632540219, "dur":137382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632677665, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632677730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632677746, "dur":195300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632873108, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632873168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632873179, "dur":117761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632990997, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667632991052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667632991062, "dur":237095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667633228211, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667633228267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633228277, "dur":188291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677667633416621, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1677667633416782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633417413, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1677667633418843, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/StreamingAssets/Triggerbedeutung.txt" }}
+,{ "pid":12345, "tid":1, "ts":1677667633418902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633418981, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/StreamingAssets/Triggerbedeutung.txt" }}
+,{ "pid":12345, "tid":1, "ts":1677667633420119, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/StreamingAssets/Story_l.json" }}
+,{ "pid":12345, "tid":1, "ts":1677667633420170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633420180, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/StreamingAssets/Story_l.json" }}
+,{ "pid":12345, "tid":1, "ts":1677667633421494, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1677667633421560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633421616, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1677667633423460, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677667633423523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633423533, "dur":50804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677667633474414, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677667633474485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633474496, "dur":10893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677667633485457, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1677667633485651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633485662, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1677667633488910, "dur":1168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1677667633490084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633490096, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1677667633491699, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677667633491771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633491781, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677667633494043, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677667633494107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633494119, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677667633495607, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677667633495682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633495694, "dur":35767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1677667633531559, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1677667633531640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633531685, "dur":6432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1677667633538183, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677667633538264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633538276, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1677667633540000, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1677667633540064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633540075, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1677667633541527, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1677667633541705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677667633541715, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1677667633542981, "dur":373581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630938450, "dur":575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630939025, "dur":5921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630944955, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1677667630945040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630947818, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1677667630950625, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1677667630950693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630950750, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1677667630953065, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1677667630953142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630953156, "dur":3931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1677667630957148, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677667630957219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630957297, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677667630958811, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1677667630958875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630958886, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1677667630960442, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1677667630960506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630960521, "dur":5377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1677667630965953, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game.exe" }}
+,{ "pid":12345, "tid":2, "ts":1677667630966005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667630966012, "dur":155579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game.exe" }}
+,{ "pid":12345, "tid":2, "ts":1677667631121647, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631121749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631121826, "dur":124514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631246399, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631246456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631246467, "dur":52713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631299265, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631299340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631299351, "dur":39719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631339128, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631339190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631339201, "dur":35728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631374991, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631375051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631375095, "dur":28979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631404167, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631404236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631404247, "dur":34649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631438954, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631439012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631439023, "dur":47587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631486663, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631486717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631486727, "dur":29753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631516538, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631516599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631516610, "dur":61969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631578635, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631578694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631578705, "dur":152076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631730840, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631730904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631730950, "dur":36608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631767611, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631767681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631767697, "dur":35852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631803612, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631803674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631803697, "dur":32250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631836003, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631836070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631836081, "dur":54890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631891027, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631891092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631891103, "dur":61636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631952796, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667631952902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667631952912, "dur":105601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632058568, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632058629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632058640, "dur":33682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632092382, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632092445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632092456, "dur":79410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632171919, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632171976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632171986, "dur":188263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632360316, "dur":102105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632462427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632462439, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632464385, "dur":1101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632465492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632465504, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632466900, "dur":77264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632544171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632544185, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632545521, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632545586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632545596, "dur":385275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632930927, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632930991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632931002, "dur":47394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632978458, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667632978599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667632978610, "dur":263284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667633241948, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667633242006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667633242017, "dur":154561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667633396637, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667633396699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677667633396710, "dur":374112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677667633770931, "dur":145612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667630938494, "dur":540, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667630939034, "dur":5941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667630944976, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677667630945067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667630949254, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677667630951487, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677667630951564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667630951579, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677667630953856, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677667630953915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667630953925, "dur":3870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677667630957856, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677667630957914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667630957926, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677667630961074, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667630961149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667630961158, "dur":159318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631120532, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631120596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631121032, "dur":117205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631238305, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631238369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631238380, "dur":56796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631295229, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631295297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631295308, "dur":177978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631473340, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631473401, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631473416, "dur":189264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631662742, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631662804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631662815, "dur":71344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631734214, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631734270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631734281, "dur":33396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631767727, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631767796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631767806, "dur":35538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631803404, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631803467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631803482, "dur":74180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631877732, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631877814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631877826, "dur":38031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631915915, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631916044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631916054, "dur":27500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631943614, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631943674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631943685, "dur":42401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631986142, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667631986199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667631986210, "dur":51061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632037332, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632037399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667632037409, "dur":30577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632068043, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632068100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667632068110, "dur":37769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632105934, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632105994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667632106005, "dur":66123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632172184, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632172238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667632172248, "dur":54540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632226842, "dur":131927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632358778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667632358793, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632360532, "dur":312711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632673249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667632673262, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632676473, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632676530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667632676541, "dur":237607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632914200, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667632914255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667632914293, "dur":135062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633049407, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633049465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667633049476, "dur":58891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633108424, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633108481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667633108521, "dur":214056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633322657, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633322719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667633322730, "dur":57890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633380675, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633380730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677667633380740, "dur":535736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677667633916525, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1677667633916527, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630938532, "dur":509, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630939042, "dur":5934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630944977, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677667630945071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630949077, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677667630951507, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1677667630951572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630952500, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1677667630953649, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677667630953743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630953753, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677667630957356, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1677667630957421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630957437, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1677667630960469, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667630960561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630960927, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667630963132, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1677667630963199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667630963208, "dur":157210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1677667631120480, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1677667631120540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631121003, "dur":13804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1677667631134867, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631134934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631134945, "dur":90151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631225167, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631225268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631225281, "dur":106166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631331510, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631331572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631331584, "dur":37357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631368997, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631369069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631369079, "dur":86660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631455794, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631455861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631455873, "dur":63684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631519614, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631519678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631519689, "dur":63965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631583710, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631583773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631583783, "dur":77902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631661745, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631661843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631661858, "dur":32813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631694724, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631694782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631694793, "dur":59000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631753853, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631753911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631753921, "dur":59179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631813153, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631813210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631813220, "dur":68323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631881634, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631881955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631881967, "dur":33657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631915681, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631915745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631915756, "dur":36731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631952546, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631952608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631952618, "dur":37129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631989803, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667631989859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667631989870, "dur":58911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632048842, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632048911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632048921, "dur":168668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632217654, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632217716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632217726, "dur":68894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632286686, "dur":121778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632408470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632408482, "dur":8246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632416783, "dur":41170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632457960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632457972, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632459889, "dur":62348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632522243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632522254, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632526326, "dur":37675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632564008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632564020, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632565672, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632565735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632565745, "dur":80326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632646125, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632646184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632646195, "dur":148457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632794708, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632794764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632794774, "dur":110465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632905293, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632905351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632905361, "dur":51045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632956463, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667632956519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667632956530, "dur":301502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667633258088, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667633258145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667633258156, "dur":143667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667633401887, "dur":215697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667633617592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677667633617605, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/klemm/Documents/Unity Projekt/OPG-Game fertig/OPG-3d-Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677667633620611, "dur":295934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677667633923501, "dur":3762, "ph":"X", "name": "ProfilerWriteOutput" }
+,
